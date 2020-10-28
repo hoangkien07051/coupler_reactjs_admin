@@ -8,8 +8,6 @@ import {
     Row
 } from 'reactstrap';
 import { Line } from 'react-chartjs-2';
-
-//Line chart
 let lineData = {
     labels: [1, 2, 3, 4, 5, 6, 7, 8],
     datasets: [{

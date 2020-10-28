@@ -31,22 +31,10 @@ const PopoverItem = (props) => {
 
 const PopoverComponent = () => {
     const popovers = [
-        {
-            'placement': 'top',
-            'text': 'Top'
-        },
-        {
-            'placement': 'bottom',
-            'text': 'Bottom'
-        },
-        {
-            'placement': 'left',
-            'text': 'Left'
-        },
-        {
-            'placement': 'right',
-            'text': 'Right'
-        }
+        {'placement': 'top','text': 'Top'},
+        {'placement': 'bottom','text': 'Bottom'},
+        {'placement': 'left','text': 'Left'},
+        {'placement': 'right','text': 'Right'}
     ];
 
     return (
@@ -55,9 +43,8 @@ const PopoverComponent = () => {
                 <Col xs="12" md="12">
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-priority-high mr-2"> </i>
-                Popovers
-                </CardTitle>
+                            <i className="mdi mdi-priority-high mr-2"> </i> Popovers
+                        </CardTitle>
                         <CardBody>
                             {popovers.map((popover, i) => <PopoverItem key={i} item={popover} id={i} />)}
                         </CardBody>

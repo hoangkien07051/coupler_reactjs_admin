@@ -16,10 +16,6 @@ import {
 
 const Projects = () => {
     return (
-        /*--------------------------------------------------------------------------------*/
-        /* Used In Dashboard-4 [General]                                                  */
-        /*--------------------------------------------------------------------------------*/
-
         <Card>
             <CardBody>
                 <div className="d-flex align-items-center">
@@ -43,7 +39,6 @@ const Projects = () => {
                         <tr className="border-0">
                             <th className="border-0">Team Lead</th>
                             <th className="border-0">Project</th>
-
                             <th className="border-0">Status</th>
                             <th className="border-0">Weeks</th>
                             <th className="border-0">Budget</th>
@@ -55,14 +50,13 @@ const Projects = () => {
                                 <div className="d-flex no-block align-items-center">
                                     <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45" /></div>
                                     <div className="">
-                                        <h5 className="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
+                                        <h5 className="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span>
+                                    </div>
                                 </div>
                             </td>
                             <td>Elite Admin</td>
-
                             <td>
                                 <i className="fa fa-circle text-orange" id="tlp1"></i>
-
                             </td>
                             <td>35</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$96K</td>
@@ -76,10 +70,8 @@ const Projects = () => {
                                 </div>
                             </td>
                             <td>Elite Admin</td>
-
                             <td>
                                 <i className="fa fa-circle text-success" id="tlp2"></i>
-
                             </td>
                             <td>35</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$96K</td>
@@ -93,10 +85,8 @@ const Projects = () => {
                                 </div>
                             </td>
                             <td>Elite Admin</td>
-
                             <td>
                                 <i className="fa fa-circle text-success" id="tlp3"></i>
-
                             </td>
                             <td>35</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$96K</td>
@@ -110,10 +100,8 @@ const Projects = () => {
                                 </div>
                             </td>
                             <td>Elite Admin</td>
-
                             <td>
                                 <i className="fa fa-circle text-orange" id="tlp4"></i>
-
                             </td>
                             <td>35</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$96K</td>

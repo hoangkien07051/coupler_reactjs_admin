@@ -30,15 +30,9 @@ import img7 from '../../assets/images/background/img5.jpg';
 const Cards = () => {
     return (
         <div>
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Row*/}
-            {/* --------------------------------------------------------------------------------*/}
             <h5 className="mb-3">Basic Cards</h5>
             <Row>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardImg top width="100%" src={img1} />
                         <CardBody>
@@ -50,9 +44,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardImg top width="100%" src={img2} />
                         <CardBody>
@@ -64,9 +55,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardImg top width="100%" src={img3} />
                         <CardBody>
@@ -81,9 +69,6 @@ const Cards = () => {
             <h5 className="mb-3">Cards Content Types</h5>
             <Row>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -98,9 +83,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -115,9 +97,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -152,9 +131,6 @@ const Cards = () => {
             <h5 className="mb-3">Cards with Text alignment</h5>
             <Row>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body>
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -162,9 +138,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body className="text-center">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -172,9 +145,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body className="text-right">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -237,9 +207,6 @@ const Cards = () => {
             <h5 className="mb-3">Cards Image with Overlay </h5>
             <Row>
                 <Col xs="12" md="6">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card inverse>
                         <CardImg width="100%" src={img7} alt="Card image cap" />
                         <CardImgOverlay>
@@ -252,9 +219,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="6">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card inverse>
                         <CardImg width="100%" src={img7} alt="Card image cap" />
                         <CardImgOverlay>
@@ -270,9 +234,6 @@ const Cards = () => {
             <h5 className="mb-3">Cards with Background Color</h5>
             <Row>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse style={{
                         'backgroundColor': '#333',
                         'borderColor': '#333'
@@ -283,9 +244,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse color="primary">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -293,9 +251,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse color="success">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -303,9 +258,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse color="info">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -313,9 +265,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse color="warning">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -323,9 +272,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body inverse color="danger">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -336,9 +282,6 @@ const Cards = () => {
             <h5 className="mb-3">Cards with Borderline Color</h5>
             <Row>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="secondary" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -346,9 +289,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="primary" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -356,9 +296,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="success" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -366,9 +303,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="info" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -376,9 +310,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="warning" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -386,9 +317,6 @@ const Cards = () => {
                     </Card>
                 </Col>
                 <Col xs="12" md="4">
-                    {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-1*/}
-                    {/* --------------------------------------------------------------------------------*/}
                     <Card body outline color="danger" className="border">
                         <CardTitle>Special Title Treatment</CardTitle>
                         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
@@ -506,12 +434,6 @@ const Cards = () => {
                     <Button color="secondary">Button</Button>
                 </Card>
             </CardColumns>
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Row*/}
-            {/* --------------------------------------------------------------------------------*/}
-            {/* --------------------------------------------------------------------------------*/}
-            {/* End Inner Div*/}
-            {/* --------------------------------------------------------------------------------*/}
         </div>
     );
 }

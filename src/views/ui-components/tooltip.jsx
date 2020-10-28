@@ -34,42 +34,23 @@ const TooltipComponent = () => {
 
     return (
         <div>
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Row*/}
-            {/* --------------------------------------------------------------------------------*/}
             <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
-                    <i className="mdi mdi-image-filter-vintage mr-2"> </i>
-                    Tooltip
+                    <i className="mdi mdi-image-filter-vintage mr-2"> </i> Tooltip
                 </CardTitle>
                 <CardBody className="">
                     <>
                         {[
-                            {
-                                placement: "top",
-                                text: "Top"
-                            },
-                            {
-                                placement: "bottom",
-                                text: "Bottom"
-                            },
-                            {
-                                placement: "left",
-                                text: "Left"
-                            },
-                            {
-                                placement: "right",
-                                text: "Right"
-                            }
+                            {placement: "top",text: "Top"},
+                            {placement: "bottom", text: "Bottom"},
+                            {placement: "left", text: "Left"},
+                            {placement: "right", text: "Right"}
                         ].map((tooltip, i) => {
                             return <TooltipItem key={i} item={tooltip} id={i} />;
                         })}
                     </>
                 </CardBody>
             </Card>
-            {/* -------------------------------------------------------------------------------- */}
-            {/* Row */}
-            {/* -------------------------------------------------------------------------------- */}
         </div>
     );
 }

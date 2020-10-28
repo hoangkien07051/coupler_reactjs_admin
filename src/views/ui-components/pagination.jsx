@@ -13,19 +13,12 @@ import {
 const PaginationComponent = () => {
     return (
         <div>
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Start Inner Div*/}
-            {/* --------------------------------------------------------------------------------*/}
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Row*/}
-            {/* --------------------------------------------------------------------------------*/}
             <Row>
                 <Col xs="12" md="6">
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-priority-high mr-2"> </i>
-                Pagination
-              </CardTitle>
+                            <i className="mdi mdi-priority-high mr-2"> </i> Pagination
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination aria-label="Page navigation example">
@@ -57,9 +50,8 @@ const PaginationComponent = () => {
                 <Col xs="12" md="6">
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-priority-high mr-2"> </i>
-                Disabled and active states
-              </CardTitle>
+                            <i className="mdi mdi-priority-high mr-2"> </i> Disabled and active states
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination aria-label="Page navigation example">
@@ -91,9 +83,8 @@ const PaginationComponent = () => {
                 <Col xs="12" md="6">
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-priority-high mr-2"> </i>
-                Sizing
-              </CardTitle>
+                            <i className="mdi mdi-priority-high mr-2"> </i> Sizing
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination size="lg" aria-label="Page navigation example">
@@ -119,9 +110,8 @@ const PaginationComponent = () => {
                 <Col xs="12" md="6">
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-priority-high mr-2"> </i>
-                Sizing
-              </CardTitle>
+                            <i className="mdi mdi-priority-high mr-2"> </i> Sizing
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination size="sm" aria-label="Page navigation example">
@@ -145,13 +135,6 @@ const PaginationComponent = () => {
                     </Card>
                 </Col>
             </Row>
-            {/* --------------------------------------------------------------------------------*/}
-            {/* Row*/}
-            {/* --------------------------------------------------------------------------------*/}
-
-            {/* --------------------------------------------------------------------------------*/}
-            {/* End Inner Div*/}
-            {/* --------------------------------------------------------------------------------*/}
         </div>
     );
 }
