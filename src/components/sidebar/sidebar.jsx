@@ -18,13 +18,11 @@ const Sidebar = (props) => {
         <aside className="left-sidebar" id="sidebarbg" data-sidebarbg="skin6" onMouseEnter={expandLogo.bind(null)} onMouseLeave={expandLogo.bind(null)}>
             <div className="scroll-sidebar">
                 <PerfectScrollbar className="sidebar-nav">
-                    {/* Sidebar Menus will go here */}
                     <Nav id="sidebarnav">
                         {props.routes.map((prop, key) => {
                             if (prop.redirect) {
                                 return null;
-                            }
-                            else {
+                            } else {
                                 return (
                                     // Adding Sidebar Item                                                           
                                     <li className={activeRoute(prop.path) + (prop.pro ? ' active active-pro' : '') + ' sidebar-item'} key={key}>

@@ -55,8 +55,7 @@ const Header = () => {
                                 <DropdownItem divider />
                                 <DropdownItem href="/pages/login"> <i className="fa fa-power-off mr-1 ml-1" /> Logout </DropdownItem>
                                 <DropdownItem divider />
-                                <Button color="success" className="btn-rounded ml-3 mb-2 mt-2" > View Profile
-                                </Button>
+                                <Button color="success" className="btn-rounded ml-3 mb-2 mt-2" > View Profile </Button>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         
