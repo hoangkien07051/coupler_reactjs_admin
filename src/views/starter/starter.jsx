@@ -3,9 +3,11 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import { SalesSummary, Projects, Feeds } from 'components/dashboard-components';
+import Feeds from '../../components/dashboard-components/feeds/feeds';
+import Projects from '../../components/dashboard-components/projects/projects';
+import SalesSummary from '../../components/dashboard-components/sales-summary/sales-summary';
 
-export default class componentName extends Component {
+export default class Starter extends Component {
   render() {
     return (
         <div>
