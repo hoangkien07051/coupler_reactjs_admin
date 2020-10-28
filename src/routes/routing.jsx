@@ -1,4 +1,4 @@
-import Starter from '../views/starter/starter.jsx';
+import Starter from '../views/starter/Starter.jsx';
 // ui components
 
 var ThemeRoutes = [
