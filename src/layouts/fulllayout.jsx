@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Header from '../components/header/header.jsx';
-import Sidebar from '../components/sidebar/sidebar.jsx';
-import Footer from '../components/footer/footer.jsx';
+import Header from '../components/Header.jsx';
+import Sidebar from '../components/Sidebar.jsx';
+import Footer from '../components/Footer.jsx';
 import ThemeRoutes from '../routes/routing.jsx';
 
 const Fulllayout = (props) => {

@@ -4,12 +4,11 @@ import { Nav } from 'reactstrap';
 import PerfectScrollbar from 'react-perfect-scrollbar'
 
 const Sidebar = (props) => {
-    //To Expand SITE_LOGO With Sidebar-Menu on Hover                                
+                                  
     const expandLogo = () => {
         document.getElementById("logobg").classList.toggle("expand-logo");
     }
-    
-    //Verifies if routeName is the one active (in browser input)                    
+                    
     const activeRoute = (routeName) => {
         return props.location.pathname.indexOf(routeName) > -1 ? 'selected' : '';
     }
@@ -18,7 +17,6 @@ const Sidebar = (props) => {
         <aside className="left-sidebar" id="sidebarbg" data-sidebarbg="skin6" onMouseEnter={expandLogo.bind(null)} onMouseLeave={expandLogo.bind(null)}>
             <div className="scroll-sidebar">
                 <PerfectScrollbar className="sidebar-nav">
-                    {/* Sidebar Menus will go here */}
                     <Nav id="sidebarnav">
                         {props.routes.map((prop, key) => {
                             if (prop.redirect) {

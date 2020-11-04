@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import {
     Nav,
     Navbar,
@@ -11,17 +11,19 @@ import {
     DropdownMenu
 } from 'reactstrap';
 
-import profilephoto from '../../assets/images/users/1.jpg';
-import logodarkicon from '../../assets/images/logo-icon.png';
-import logolighticon from '../../assets/images/logo-light-icon.png';
-import logodarktext from '../../assets/images/logo-text.png';
-import logolighttext from '../../assets/images/logo-light-text.png';
+import profilephoto from '../assets/images/users/1.jpg';
+import logodarkicon from '../assets/images/logo-icon.png';
+import logolighticon from '../assets/images/logo-light-icon.png';
+import logodarktext from '../assets/images/logo-text.png';
+import logolighttext from '../assets/images/logo-light-text.png';
 
-const Header = () => {
-    const showMobilemenu = () => {
+export default class Header extends Component {
+
+    showMobilemenu() {
         document.getElementById('main-wrapper').classList.toggle('show-sidebar');
     }
 
+  render() {
     return (
         <header className="topbar navbarbg" data-navbarbg="skin1">
             <Navbar className="top-navbar" dark expand="md">
@@ -36,7 +38,7 @@ const Header = () => {
                             <img src={logolighttext} className="light-logo" alt="homepage" />
                         </span>
                     </NavbarBrand>
-                    <button className="btn-link nav-toggler d-block d-md-none" onClick={() => showMobilemenu()}>
+                    <button className="btn-link nav-toggler d-block d-md-none" onClick={() => this.showMobilemenu()}>
                         <i className="ti-menu ti-close" />
                     </button>
                 </div>
@@ -64,6 +66,9 @@ const Header = () => {
                 </Collapse>
             </Navbar>
         </header>
-    );
+    )
+  }
 }
-export default Header;
+
+
+

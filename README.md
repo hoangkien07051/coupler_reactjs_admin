@@ -1,12 +1,11 @@
 # trang admin cho ứng dụng Coupler
 
-
-https://medium.com/androiddevelopers/practical-proguard-rules-examples-5640a3907dc9
-
-
-Danh sách hình ảnh ở màn hình home được lấy
-Màn hình home là lấy ra những user mà người dùng chưa like, supper like với những hình ảnh trong album + những status trong newfeed của các user khác mà người dung chưa like + Khi user cập nhật avata mới
-ở đây đều sort theo create_date
-
-Khi người dung like hoặc supper like thì thực hiện gửi thông báo cho user sở hữu hình ảnh và status đó
+# Các chức năng Admin
+- tạo nội dung quảng cáo
+- Quản lý tài khoản >> khóa, block tài khoản, thông tin xác thực user (people_indentify)
+- Quản lý các hoạt động gần đây của user
+- kiểm soát thiết bị đăng nhập
+- đẩy thông báo cho người dùng
+- danh sách report user (báo cáo vi phạm)
+- gửi gợi ý kết bạn cho user
 
