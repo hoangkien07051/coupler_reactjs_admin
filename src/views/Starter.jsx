@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
     Row,
     Col
 } from 'reactstrap';
-import Feeds from '../../components/dashboard-components/Feeds';
-import Projects from '../../components/dashboard-components/Projects';
-import SalesSummary from '../../components/dashboard-components/SalesSummary';
+import Feeds from '../components/dashboard-components/Feeds';
+import Projects from '../components/dashboard-components/Projects';
+import SalesSummary from '../components/dashboard-components/SalesSummary';
 
-export default class componentName extends Component {
+export default class Starter extends Component {
   render() {
     return (
         <div>
