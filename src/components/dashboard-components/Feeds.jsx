@@ -1,16 +1,18 @@
-import React from "react";
+import React, { Component } from 'react';
 import {
     Card,
     CardBody,
 } from 'reactstrap';
 
-const Feeds = () => {
+export default class Feeds extends Component {
+  render() {
     return (
         <Card>
             <CardBody>
             </CardBody>
         </Card>
-    );
+    )
+  }
 }
 
-export default Feeds;
+

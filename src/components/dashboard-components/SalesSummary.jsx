@@ -1,17 +1,18 @@
-import React from "react";
+import React, { Component } from 'react';
 import {
     Card,
     CardBody,
 } from 'reactstrap';
 
-
-const SalesSummary = () => {
+export default class SalesSummary extends Component {
+  render() {
     return (
         <Card>
             <CardBody>
             </CardBody>
         </Card>
-    );
+    )
+  }
 }
 
-export default SalesSummary;
+
