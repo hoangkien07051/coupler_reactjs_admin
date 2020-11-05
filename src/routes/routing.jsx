@@ -11,6 +11,11 @@ var ThemeRoutes = [
     icon: 'ti-loop',  
     component: Starter 
   },
-  { path: '/', pathTo: '/dashboard', name: 'Dashboard', redirect: true }
+  { 
+    path: '/', /*với trang chủ thì redirect tới trang dashbroad*/
+    pathTo: '/dashboard', 
+    name: 'Dashboard', 
+    redirect: true 
+  }
 ];
 export default ThemeRoutes;
